@@ -5,8 +5,8 @@ const outputBox = document.querySelector("#output");
 
 function compareValues(sum, luckyNumber) {
   return sum % luckyNumber
-    ? (outputBox.innerText = "I am sorry, Your Birthday is not Lucky!")
-    : (outputBox.innerText = "Hey, Congratulations!!!. Your birthday is Lucky!");
+    ? (outputBox.innerText = "I am sorry, Your Birthday is not Lucky!") && (outputBox.style.color="red")
+    : (outputBox.innerText = "Hey, Congratulations!!!. Your birthday is Lucky!") && (outputBox.style.color="green")
 }
 
 function checkBirthdayIsLucky() {
