@@ -2,4 +2,4 @@
 
 ## An App written in vanilla JS.
 
-### Just a simple application for fun which tell if your birthday is lucky or not!
+### Just a simple application for fun which tells if your birthday is lucky or not!
